@@ -43,9 +43,14 @@ Average Walking Distance: ~2.18 miles per library.
 
 Visualization: The output includes an interactive Folium map mapping the exact coordinates of the 5 chosen coffee shops (red markers) and the routing edges connecting them to their assigned libraries.
 
+<img width="601" height="350" alt="image" src="https://github.com/user-attachments/assets/5831643e-f06d-4fdd-bd46-6cda69ccd37b" />
+
+<img width="602" height="347" alt="image" src="https://github.com/user-attachments/assets/5e0e625f-5d6b-4ca2-ba3d-6385d146f4af" />
+
+
 (Note: The dataset was sliced to 30 libraries to comply with the 1,000 variables/constraints limit of the IBM CPLEX Community Edition environment).
 
-🚀 How to Run Locally
+!!! How to Run Locally !!!
 Clone the repository:
 
 Bash
