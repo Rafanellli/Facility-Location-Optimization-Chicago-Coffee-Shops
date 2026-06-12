@@ -55,20 +55,26 @@ Visualization: The output includes an interactive Folium map mapping the exact c
    ```bash
    git clone <your-repo-url>
    cd <your-repo-folder>
+   ```
 
 Set up a virtual environment:
-
-python -m venv venv_ibm
-venv_ibm\Scripts\activate
+   ```bash
+   python -m venv venv_ibm
+   venv_ibm\Scripts\activate
+   ```
 
 
 Install the required dependencies:
-python -m pip install --upgrade pip
-pip install jupyter docplex==2.25.236 cplex requests geopy folium
+   ```bash
+   python -m pip install --upgrade pip
+   pip install jupyter docplex==2.25.236 cplex requests geopy folium
+   ```
 
 
 Launch Jupyter Notebook:
-jupyter notebook
+   ```bash
+   jupyter notebook
+   ```
 
 
 Open Coffeeshop_to_library_decision_optimization.ipynb and run all cells.
