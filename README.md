@@ -51,25 +51,26 @@ Visualization: The output includes an interactive Folium map mapping the exact c
 (Note: The dataset was sliced to 30 libraries to comply with the 1,000 variables/constraints limit of the IBM CPLEX Community Edition environment).
 
 !!! How to Run Locally !!!
-Clone the repository:
+**Clone the repository:**
+   ```bash
+   git clone <your-repo-url>
+   cd <your-repo-folder>
 
-Bash
-git clone <your-repo-url>
-cd <your-repo-folder>
 Set up a virtual environment:
 
-Bash
 python -m venv venv_ibm
 venv_ibm\Scripts\activate
+
+
 Install the required dependencies:
-
-Bash
-pip install --upgrade pip
+python -m pip install --upgrade pip
 pip install jupyter docplex==2.25.236 cplex requests geopy folium
-Launch Jupyter Notebook:
 
-Bash
+
+Launch Jupyter Notebook:
 jupyter notebook
+
+
 Open Coffeeshop_to_library_decision_optimization.ipynb and run all cells.
 
 Author: Seraf Adonai Rafanelli Patay
