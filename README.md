@@ -53,8 +53,8 @@ Visualization: The output includes an interactive Folium map mapping the exact c
 !!! How to Run Locally !!!
 **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
-   cd <your-repo-folder>
+  git clone https://github.com/Rafanellli/Facility-Location-Optimization-Chicago-Coffee-Shops.git
+   cd Facility-Location-Optimization-Chicago-Coffee-Shops
    ```
 
 Set up a virtual environment:
