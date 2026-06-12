@@ -79,4 +79,7 @@ Launch Jupyter Notebook:
 
 Open Coffeeshop_to_library_decision_optimization.ipynb and run all cells.
 
+
+## 📝 Credits & Acknowledgments
+This project was developed based on the Decision Optimization module provided by IBM's Data Science Professional Certificate on Coursera. Special thanks to the IBM team for the foundational framework.
 Author: Seraf Adonai Rafanelli Patay
